@@ -1,0 +1,179 @@
+body {
+    background-color: darkgray;
+    color: black;
+}
+
+.header {
+    padding: 0px;
+    text-align: center;
+    font-size:xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+.topnav {
+    display:flex;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.topnav a {
+    float:none;
+    display:inline;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 1px;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: red;
+    border-radius: 20px;
+}
+
+.img-liftoff{
+    width: 500px;
+    height: 300px;
+}
+
+.img-liftoff p {
+    padding: 20px 30px 20px;
+
+}
+
+
+.img-descending{
+    width: 650px;
+    height: 300px;
+}
+
+.img-ascent{
+    width:500px;
+    height:250px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    
+}
+
+.wrapper{
+    width: 600px;
+    margin:0 auto;
+}
+.footer {
+    position:fixed;
+    bottom: 0%;
+    right: 20px;
+    display: block;
+    padding: 0%;
+}
+
+tbody{
+    background-color: grey;
+}
+table {
+    background-color: beige;
+    width: 600px; 
+    margin-left: auto;
+    margin-right:auto; 
+}
+th, caption {
+text-align: left;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.overlay{
+    width: 100%;
+    height:100%;
+    position:fixed;
+}
+
+form{
+    max-width: 600px;
+    width:90%;
+    background-color: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin:0;
+    text-align:center;
+}
+
+label {
+    display: block;
+    margin:20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    outline: none;
+    resize: none;
+    border-bottom: 1px solid white;
+    border: none;
+    
+}
+
+input[type= "text"]:focus, textarea:focus {
+    border-bottom: 1px solid black;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color:black
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"]{
+    text-align: center;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, darkgray);
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.error{
+    color:red
+}
+.error-border {
+    border-bottom: 1px solid red ;
+}
+#success{
+    color: green;
+}
